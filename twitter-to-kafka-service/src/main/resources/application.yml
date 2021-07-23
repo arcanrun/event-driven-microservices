@@ -1,0 +1,7 @@
+twitter-to-kafka:
+  twitter-keywords:
+    - Java
+    - Spring
+    - SpringBoot
+    - Orcale
+    - Kafka
