@@ -22,6 +22,8 @@
         <java.version>11</java.version>
         <spring-boot.verison>2.5.3</spring-boot.verison>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+        <twitter4j-stream.version>4.0.7</twitter4j-stream.version>
+        <lombok.version>1.18.21</lombok.version>
     </properties>
 
     <dependencyManagement>
@@ -36,6 +38,17 @@
                 <artifactId>spring-boot-starter-test</artifactId>
                 <version>${spring-boot.verison}</version>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.twitter4j</groupId>
+                <artifactId>twitter4j-stream</artifactId>
+                <version>${twitter4j-stream.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
